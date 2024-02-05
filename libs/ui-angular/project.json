@@ -1,0 +1,9 @@
+{
+  "name": "ui-angular",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/ui-angular/src",
+  "prefix": "zeiss",
+  "tags": [],
+  "projectType": "library",
+  "targets": {}
+}
