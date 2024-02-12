@@ -45,11 +45,11 @@ The project has 2 libraries setup: `ui-angular` and `ui-react`. To run the libra
 following commands:
 
 ```sh
-nx storybook ui-angular
+npx nx storybook ui-angular 
 ```
 
 ```sh
-nx storybook ui-react
+npx nx storybook ui-react
 ```
 
 Each library is meant to mirror a component library written in either `Angular` or `React`.
@@ -61,19 +61,19 @@ the live coding task. Running the above scripts will start the Storybook instanc
 Unit tests:
 
 ```sh
-nx test <ui-angular|ui-react>
+npx nx test <ui-angular|ui-react>
 ```
 
 Storybook tests:
 
 ```sh
-nx test-storybook <ui-angular|ui-react>
+npx nx test-storybook <ui-angular|ui-react>
 ```
 
 #### Build
 
 ```sh
-nx build <ui-angular|ui-react>
+npx nx build <ui-angular|ui-react>
 ```
 
 ## Configuring IDEs
