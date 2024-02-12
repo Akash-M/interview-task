@@ -13,11 +13,39 @@ As a developer working on the building a component library, I would like to add 
 2 product teams have requested the component library team for a `Card` component to be integrated into
 their web applications. The teams have provided the following designs to serve as a reference point:
 
+#### Product Team A Requirements
+
 ![requirement-1.png](./docs/requirement-1.png)
+
+CSS Specs:
+
+```css
+border: 1px solid grey;
+border-radius: 8px;
+box-shadow: 0px 4px 16px rgb(25 25 25 / 12%);
+width: 300px;
+height: 350px;
+padding: 12px;
+```
+
+#### Product Team B Requirements
 
 ![requirement-2.png](./docs/requirement-2.png)
 
-`Tasks`
+CSS Specs:
+
+```css
+border: 1px solid grey;
+border-radius: 8px;
+box-shadow: 0px 4px 16px rgb(25 25 25 / 12%);
+width: 300px;
+height: 350px;
+
+/* content area below image */
+padding: 12px;
+```
+
+#### Tasks
 
 - [ ] Pick a framework of your choice: React or Angular
 - [ ] Plan and implement component(s) based on the above design requirements. NOTE: it is NOT necessary to fully implement all functionalities. Please focus on general structuring of the component(s).

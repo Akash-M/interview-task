@@ -11,11 +11,8 @@ const meta: Meta<typeof Card> = {
 export default meta;
 type CardStory = StoryObj<typeof Card>;
 
-// TODO: Add component stories
-
 export const Default: CardStory = {
   args: {},
-  play: async ({ canvasElement }) => {
-    // TODO: Add interaction tests
-  },
 };
+
+// TODO: Add component stories

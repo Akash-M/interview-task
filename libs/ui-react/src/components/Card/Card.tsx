@@ -5,7 +5,7 @@ export interface UiComponentsProps {}
 
 const StyledUiComponents = styled.div`
   border: 1px solid grey;
-  width: 250px;
+  // TODO: update styles.
 `;
 
 export function Card(props: UiComponentsProps) {

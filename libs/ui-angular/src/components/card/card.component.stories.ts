@@ -13,8 +13,6 @@ type CardStory = StoryObj<CardComponent>;
 
 export const Default: CardStory = {
   args: {},
-  play: async ({ canvasElement }) => {
-    const canvas = within(canvasElement);
-    expect(canvas.getByText(/Card Component/gi)).toBeTruthy();
-  },
 };
+
+// TODO: Add component stories
