@@ -18,8 +18,15 @@ export const Default: CardStory = {
 export const ProductTeamA: CardStory = {
   args: {
     children: (
-      <div style={{ display: 'flex', flex: 1, width: '100%', height: '100%' }}>
-        dynamic content
+      <div
+        style={{
+          display: 'grid',
+          alignItems: 'center',
+          width: '100%',
+          height: '100%',
+        }}
+      >
+        <p style={{ textAlign: 'center' }}>dynamic content</p>
       </div>
     ),
   },
