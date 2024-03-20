@@ -1,5 +1,5 @@
+import * as React from 'react';
 import styled from 'styled-components';
-import React from 'react';
 
 /* eslint-disable-next-line */
 export interface UiComponentsProps {
