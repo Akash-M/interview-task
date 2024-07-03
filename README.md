@@ -1,8 +1,6 @@
 # Interview Task
 
-Welcome to the ZEISS frontend interview task :)
-The objective of this coding task is to work on developing a component library mirroring our daily work
-in the Beyond for Online Experience team.
+The objective of this coding task is to work on developing a component library.
 
 ## Requirements
 
